@@ -1,0 +1,13 @@
+[project]
+name = "toolkit"
+version = "0.9.1"
+description = "Python package with a CLI containing a calculator and a unit converter"
+readme = "README.md"
+requires-python = ">=3.10"
+authors = [{name = "Nadya"}]
+
+[project.scripts]
+toolkit = "toolkit.__main__:main"
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]
